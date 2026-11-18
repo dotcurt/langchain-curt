@@ -1,7 +1,7 @@
 # langchain-curt
 
 [LangChain](https://github.com/langchain-ai/langchain) chat loader for
-[`.curt`](https://github.com/JordanNewell/dot_curt) — the open (MIT),
+[`.curt`](https://github.com/dotcurt/dot_curt) — the open (MIT),
 single-file AI conversation format. One timestamped, attributed conversation
 per file; unknown fields are data and survive round-trips.
 
@@ -25,12 +25,12 @@ sessions = loader.lazy_load()   # one ChatSession per .curt file
 - **Dependencies:** `langchain-core` only. The `.curt` parser is stdlib-only.
 
 Converters into `.curt` exist for Claude Code transcripts
-([curt-convert](https://github.com/JordanNewell/curt-convert)), Open WebUI
-exports ([curt-openwebui](https://github.com/JordanNewell/curt-openwebui)),
+([curt-convert](https://github.com/dotcurt/curt-convert)), Open WebUI
+exports ([curt-openwebui](https://github.com/dotcurt/curt-openwebui)),
 and the WildChat-1M research corpus
-([curt-wildchat](https://github.com/JordanNewell/curt-wildchat)).
+([curt-wildchat](https://github.com/dotcurt/curt-wildchat)).
 
-Spec: https://github.com/JordanNewell/dot_curt · npm reference impl:
+Spec: https://github.com/dotcurt/dot_curt · npm reference impl:
 [`curt-format`](https://www.npmjs.com/package/curt-format)
 
 ## Development
